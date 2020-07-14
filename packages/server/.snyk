@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - node-webkit-updater > request > hawk > hoek:
+        patched: '2020-07-14T05:29:37.290Z'
+    - node-webkit-updater > request > hawk > boom > hoek:
+        patched: '2020-07-14T05:29:37.290Z'
+    - node-webkit-updater > request > hawk > sntp > hoek:
+        patched: '2020-07-14T05:29:37.290Z'
+    - node-webkit-updater > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-14T05:29:37.290Z'
+  'npm:minimatch:20160620':
+    - node-webkit-updater > del > globby > glob > minimatch:
+        patched: '2020-07-14T05:29:37.290Z'
+  'npm:request:20160119':
+    - node-webkit-updater > request:
+        patched: '2020-07-14T05:29:37.290Z'
+  'npm:tar:20151103':
+    - node-webkit-updater > tar.gz > tar:
+        patched: '2020-07-14T05:29:37.290Z'
+  'npm:tunnel-agent:20170305':
+    - node-webkit-updater > request > tunnel-agent:
+        patched: '2020-07-14T05:29:37.290Z'
